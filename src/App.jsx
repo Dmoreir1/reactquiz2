@@ -1,17 +1,17 @@
-import { NumberBuilder } from "./NumberBuilder";
-// import { AddCalculator } from "./AddCalculator";
+// import { NumberBuilder } from "./NumberBuilder";
+import { AddCalculator } from "./AddCalculator";
 
 const App = () => {
   return (
     <div>
       <br></br>
-      <NumberBuilder />
+      {/* <NumberBuilder /> */}
       <br></br>
       <br></br>
       <br></br>
       ------------------------------------
       <br></br>
-      {/* <AddCalculator /> */}
+      <AddCalculator />
     </div>
   );
 }
